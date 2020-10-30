@@ -10,7 +10,7 @@ module.exports = function(req) {
   for (const key in url) {
     req[key] = url[key]
   }
-
+  console.log(url)
   req.query = url.search ? qs.parse(url.search.slice(1)) : {}
   req.ip = req.socket.remoteAddress
 }
