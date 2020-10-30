@@ -13,6 +13,7 @@ describe('rekvest', () => {
     expect(req.protocol).toBe('http:')
     expect(req.port).toBe('3000')
     expect(req.pathname).toBe('/')
+    expect(req.path).toBe('/')
   })
 
   it('should parse requests with query params', () => {
@@ -28,5 +29,6 @@ describe('rekvest', () => {
     expect(req.port).toBe('3000')
     expect(req.pathname).toBe('/')
     expect(req.query.hello).toBe('1')
+    expect(req.path).toBe('/?hello=1')
   })
 })

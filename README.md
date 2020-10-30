@@ -37,6 +37,7 @@ req.searchParams: URLSearchParams { 'hello' => '1' }
 req.hash: ''
 req.ip: '127.0.0.1'
 req.query: { hello: '1' }
+req.path: '/?hello=1'
 ```
 
 ISC Licensed. Enjoy!
