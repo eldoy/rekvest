@@ -7,12 +7,15 @@
     "test": "jest --watch"
   },
   "author": "Vidar Eldøy <vidar@eldoy.com>",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/eldoy/rekvest.git"
   },
   "devDependencies": {
     "jest": "^26.6.1"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }

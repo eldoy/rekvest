@@ -40,4 +40,4 @@ req.query: { hello: '1' }
 req.path: '/?hello=1'
 ```
 
-ISC Licensed. Enjoy!
+MIT Licensed. Enjoy!
