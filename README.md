@@ -41,3 +41,5 @@ req.path: '/?hello=1'
 ```
 
 MIT Licensed. Enjoy!
+
+Created by [Eldøy Projects](https://eldoy.com)
